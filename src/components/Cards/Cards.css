@@ -1,0 +1,27 @@
+.Cards-container{
+    margin-top: 30px;
+    width: 25%;
+    
+    color: black;
+    padding: 5px;
+    border-bottom: rgb(68, 68, 231,0.7) solid 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+i{
+    font-size: 100px;
+    margin: 5px;
+    
+}
+.Celsius-img{
+    width: 20px;
+}
+
+@media (max-width:770px){
+    .Cards-container{
+        width: 60%;
+    }
+    i{
+        font-size: 50px;
+    }
+}
